@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.top{
+    background-color:#3e362e;
+
+}
+.top>*{
+    padding-left: 160px;
+    padding-right:160px;
+    padding-top:20px;
+    padding-bottom: 80px;
+    gap:16px;
+    display:flex;
+    align-items:center;
+    
+}
+.hero{  
+    flex-grow:1;
+    display:flex;
+    flex-direction: row;
+}
+.hero>*{
+    flex:1;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+}
+.leftside>.title{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 48px;
+    font-weight: bolder;
+}
+.leftside>.subtitle{
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+img{
+    max-width: 100%;
+}
+
+.mid{
+    background-color: #ac8968;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.mid>*{
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+
+}
+.mid>.header{
+    font-size:36px;
+    font-weight: bolder;
+    color: #3e362e;
+}
+.mid>.body{
+    color:#3e362e;
+}
+.mid>.quote{
+    color:#3e362ea6;
+    font-style:italic;
+    text-align:center;
+}
+.alt{
+    background-color: #93785b;
+}
+.alt>.body{
+    color:rgba(255, 255, 255, 0.7);
+}
+.alt>.quote{
+    color:rgba(255, 255, 255, 0.5);
+}
+
+.bibliography{
+    background-color:#3e362e;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.bibliography>*{
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    
+
+}
+.bibliography>.header{
+    font-size: 48px;
+    font-weight: bolder;
+    color:rgba(255, 255, 255, 0.7);
+    align-self:center;
+}
+.bibliography>.citation{
+    align-self:flex;
+    color:rgba(255, 255, 255, 0.4);
+
+}
